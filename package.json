@@ -2,6 +2,7 @@
   "name": "pilot",
   "version": "0.0.1",
   "scripts": {
+    "start": "node server.js"
     "test": "karma start public/test/karma.conf.js"
     },
   "dependencies": {
@@ -35,7 +36,5 @@
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1"
   }
-  "scripts": {
-  "start": "node server.js"
-  }
+
 }

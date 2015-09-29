@@ -86,7 +86,7 @@ mongoose.connect('  mongodb://pilot:0000@ds051923.mongolab.com:51923/pilot');
 
 var app = express();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
